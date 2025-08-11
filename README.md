@@ -2,11 +2,11 @@
 
 A FastAPI-based service that detects spoken languages in audio files using multiple AI providers for comparison and benchmarking.
 
-## 🎯 Assignment Overview
+## Project Overview
 
 This project implements a language detection service as part of the DripLink Backend Intern Assignment. It integrates with 4 different AI providers to analyze audio files and detect the spoken language.
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 language-detection/
@@ -24,7 +24,7 @@ language-detection/
 └── main.py               # Entry point
 ```
 
-## 🚀 Features
+##  Features
 
 ### Core Requirements ✅
 - **4 Provider Connectors**: OpenAI, Google Gemini, Sarvam AI, ElevenLabs
@@ -41,14 +41,14 @@ language-detection/
 - **Health Endpoints**: Service health monitoring
 - **Utility Functions**: Performance analysis and comparison tools
 
-## 📊 Provider Details
+##  Provider Details
 
 | Provider | Status | Implementation | Language Support |
 |----------|--------|----------------|------------------|
-| **OpenAI Whisper** | ✅ Fully Implemented | Real API calls | 100+ languages |
-| **Google Gemini** | ✅ Fully Implemented | Real API calls | 100+ languages |
-| **Sarvam AI** | 🔄 Partially Implemented | Real API structure | Indian languages focus |
-| **ElevenLabs** | 🎭 Mock Implementation | Intelligent mock | Mock responses |
+| **OpenAI Whisper** |  Fully Implemented | Real API calls | 100+ languages |
+| **Google Gemini** |  Fully Implemented | Real API calls | 100+ languages |
+| **Sarvam AI** |  Partially Implemented | Real API structure | Indian languages focus |
+| **ElevenLabs** |  Mock Implementation | Intelligent mock | Mock responses |
 
 ## 🛠️ Setup Instructions
 
@@ -132,7 +132,7 @@ python main.py
 ### Other Endpoints
 - `GET /` - Service information
 
-## 🧪 Testing
+##  Testing
 
 ### Sample Request with cURL:
 ```bash
@@ -147,7 +147,7 @@ curl -X POST "http://localhost:8000/detect/language" \
 ### Supported Audio Formats:
 - `.mp3`, `.wav`, `.m4a`, `.flac`, `.ogg`, `.wma`
 
-## 💰 Cost Analysis
+##  Cost Analysis
 
 The service provides cost estimates for each provider:
 
@@ -156,7 +156,7 @@ The service provides cost estimates for each provider:
 - **Sarvam AI**: ~$0.02 per minute (estimated)
 - **ElevenLabs**: Variable based on usage
 
-## 🔧 Configuration
+##  Configuration
 
 ### Provider Configuration
 Each connector can be individually configured:
@@ -171,7 +171,7 @@ Each connector can be individually configured:
 - Rate limiting protection
 - Graceful degradation
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 The service tracks:
 - **Execution Time**: Per provider and total
@@ -179,7 +179,7 @@ The service tracks:
 - **Cost Efficiency**: Cost per successful detection
 - **Accuracy**: Comparison with ground truth (when provided)
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real Sarvam AI implementation
 - [ ] Real ElevenLabs implementation
@@ -189,21 +189,6 @@ The service tracks:
 - [ ] Caching layer
 - [ ] Async processing
 - [ ] Results comparison analytics
-
-## 🐛 Troubleshooting
-
-### Common Issues:
-1. **File Not Found**: Ensure audio file paths are absolute
-2. **API Keys**: Verify environment variables are set correctly
-3. **Format Support**: Check audio file format compatibility
-4. **Network Issues**: Verify internet connectivity for API calls
-
-### Logs:
-Check console output for detailed error messages and timing information.
-
-## 📄 License
-
-This project is part of the DripLink Backend Intern Assignment.
 
 ---
 
