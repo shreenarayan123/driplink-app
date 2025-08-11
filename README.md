@@ -192,6 +192,5 @@ The service tracks:
 
 ---
 
-**Assignment Completed By**: [Your Name]  
-**Date**: August 11, 2025  
+**Project By**: Shreenarayan 
 **Version**: 1.0.0
