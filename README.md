@@ -1,4 +1,4 @@
-# Language Detection Service
+# Language Detection 
 
 A FastAPI-based service that detects spoken languages in audio files using multiple AI providers for comparison and benchmarking.
 
