@@ -4,7 +4,7 @@ A FastAPI-based service that detects spoken languages in audio files using multi
 
 ## Project Overview
 
-This project implements a language detection service as part of the DripLink Backend Intern Assignment. It integrates with 4 different AI providers to analyze audio files and detect the spoken language.
+This project implements a language detection service . It integrates with 4 different AI providers to analyze audio files and detect the spoken language.
 
 ##  Architecture
 
